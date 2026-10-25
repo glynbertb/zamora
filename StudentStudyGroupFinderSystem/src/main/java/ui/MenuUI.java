@@ -34,7 +34,7 @@ public class MenuUI {
                 case "1" -> registerScreen();
                 case "2" -> loginScreen();
                 case "3" -> {
-                    System.out.println("Goodbye!");
+                    System.out.println("Thank you for using the system. Goodbye and have a nice day!");
                     running = false;
                 }
                 default -> System.out.println("Invalid choice. Try again.");
